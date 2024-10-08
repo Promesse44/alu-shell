@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 #displays content of working directory
-
+display=$(ls)
+for i in $display;
+do
+	echo "$i" | cut -d '_' -f2
+done
