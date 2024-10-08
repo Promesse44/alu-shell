@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#displays time
+i=0
+while [ $i -le 12 ]
+do
+	echo "hour: $i"
+	seq 1 59
+	((i++))
+done
