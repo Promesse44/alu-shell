@@ -3,5 +3,5 @@
 display=$(ls)
 for i in $display;
 do
-	echo "$i" | cut -d '_' -f2
+	echo "$i" | cut -d '-' -f2
 done
