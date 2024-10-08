@@ -3,7 +3,7 @@
 i=0
 while [ $i -le 12 ]
 do
-	echo "hour: $i"
+	echo "Hour: $i"
 	seq 1 59
 	((i++))
 done
