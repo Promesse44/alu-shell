@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#script that kills prcess 7
+kill -7 "$(pgrep -f highlander)"
