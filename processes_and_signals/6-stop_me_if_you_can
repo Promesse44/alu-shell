@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#script that stopd --- process without using kill
+pkill -f beyond
