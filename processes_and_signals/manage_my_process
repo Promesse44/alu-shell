@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#manage
+#manage 
 while [[ 1 -eq 1 ]]
 do
        echo "I am alive!" >> /tmp/my_process
